@@ -1,0 +1,22 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+exploit_0 = "3pk8v8gn15mTQqiaWrLTQgnnaaKtS3CPfCirLcLS8Jzj"
+exploit_1 = "8aY3h1nPbkNAPg8YLgVEpfbeknTFbJNjkScL2Xcrq524"
+exploit_2 = "8NKomCZJRrSjEyWkrHR6LouYW79nvnXUcgmP4ADBnW8C"
+exploit_3 = "GbgJnHbjmXZy9HpsVXogzSugTdpW6mcvfYEXWabkDicC"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+exploit0 = "anchor build -p exploit_0 && anchor test --skip-build --run ./exploit-pocs/exploit-0/"
+exploit1 = "anchor build -p exploit_1 && anchor test --skip-build --run ./exploit-pocs/exploit-1/"
+exploit2 = "anchor build -p exploit_2 && anchor test --skip-build --run ./exploit-pocs/exploit-2/"
+exploit3 = "anchor build -p exploit_3 && anchor test --skip-build --run ./exploit-pocs/exploit-3/"
