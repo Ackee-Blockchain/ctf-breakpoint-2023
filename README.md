@@ -10,7 +10,7 @@
 
 ## Build and run the exploits
 - `anchor build`
-- `npm install`
+- `yarn install`
 - `anchor run exploit<n> # replace <n> by the number of the exploit`
 
 # Run in Solana Playground
