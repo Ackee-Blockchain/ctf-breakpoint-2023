@@ -11,16 +11,32 @@
 # Run locally
 - ### Prerequisites
     - solana-cli
-        - `solana-install init 1.16.17`
+        ```bash
+        solana-install init 1.16.17
+        ```
     - Anchor 0.28.0
-        - `avm install 0.28.0 && avm use 0.28.0`
+        ```bash
+        avm install 0.28.0 && avm use 0.28.0
+        ```
 
 - ### (Optional) Generate keypair:
-    - `solana-keygen new`
+    ```shell
+    solana-keygen new
+    ```
 
 - ### Build and run the exploits
-    - `git clone https://github.com/Ackee-Blockchain/ctf-breakpoint-2023.git`
-    - `cd ctf-breakpoint-2023`
-    - `anchor build`
-    - `yarn install`
-    - `anchor run exploit<n> # replace <n> by the number of the exploit`
+    ``` shell
+    git clone https://github.com/Ackee-Blockchain/ctf-breakpoint-2023.git
+    ```
+    ``` shell
+    cd ctf-breakpoint-2023
+    ```
+    ``` shell
+    anchor build
+    ```
+    ``` shell
+    yarn install
+    ```
+    ``` shell
+    anchor run exploit<n> # replace <n> by the number of the exploit
+    ```
