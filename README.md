@@ -1,9 +1,12 @@
 # Run locally
 ## Prerequisites
-- solana-cli 1.14.*
-    - `solana-install init 1.14.28`
+- solana-cli 1.16.*
+    - `solana-install init 1.16.17`
 - Anchor 0.28.0
     - `avm install 0.28.0 && avm use 0.28.0`
+
+## (Optional) Generate keypair:
+- `solana-keygen new`
 
 ## Build and run the exploits
 - `anchor build`
