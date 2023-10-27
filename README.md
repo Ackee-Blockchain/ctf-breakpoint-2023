@@ -40,9 +40,9 @@
         avm install 0.28.0 && avm use 0.28.0
         ```
 
-- ### (Optional) Generate keypair:
+- ### (if you did not setup the default wallet) Generate keypair:
     ```shell
-    solana-keygen new
+    solana-keygen new # use the default path, as it is defined within Anchor.toml (~/.config/solana/id.json)
     ```
 
 - ### Build and run the exploits
