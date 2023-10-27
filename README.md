@@ -9,9 +9,13 @@
     - Exploit 2: [Playground](https://beta.solpg.io/653a7093fb53fa325bfd0c06), [GitHub](https://github.com/Ackee-Blockchain/solpg-exploit2)
     - Exploit 3: [Playground](https://beta.solpg.io/653b8742fb53fa325bfd0c09), [GitHub](https://github.com/Ackee-Blockchain/solpg-exploit3)
 
+- ### Do not forget to change the cluster to localhost
+    - Within the lower left corner settings
+
+
 - Useful commands:
     ```bash
-    solana airdrop <X>
+    solana airdrop 100
     ```
     ```bash
     build
