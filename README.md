@@ -42,7 +42,7 @@
 
 - ### (if you did not setup the default wallet) Generate keypair:
     ```shell
-    solana-keygen new # use the default path, as it is defined within Anchor.toml (~/.config/solana/id.json)
+    solana-keygen new # use the default path (~/.config/solana/id.json)
     ```
 
 - ### Build and run the exploits
