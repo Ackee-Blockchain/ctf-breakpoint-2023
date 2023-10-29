@@ -31,6 +31,10 @@
 
 # Run locally
 - ### Prerequisites
+    - Rust **>=1.70**
+        ```bash
+        rustup install 1.70 && rustup default 1.70
+        ```
     - solana-cli
         ```bash
         solana-install init 1.16.17
